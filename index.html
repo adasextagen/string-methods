@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Metodos</title>
+  <script src="main.js" type="text/javaScript"></script>
+</head>
+<body>
+  <div>
+    <select id="methods">
+      <option value="">Seleccione un método</option>
+      <option value="length">Length</option>
+      <option value="concat">Concat</option>
+      <option value="upperCase">Uppercase</option>
+      <option value="lowerCase">Lowercase</option>
+      <option value="charAt">CharAt</option>
+      <option value="slice">Slice</option>
+      <option value="substring">Substring</option>
+      <option value="split">Split</option>
+      <option value="replace">Replace</option>
+      <option value="indexof">IndexOf</option>
+    </select>
+  </div>
+  <div>
+    <input id="firstInput" type="text" value="">
+  </div>
+  <div>
+    <input id="secondInput" type="text" value="">
+  </div>
+  <div>
+    <input id="thirdInput" type="text" value="">
+  </div>
+  
+  <button type="button" onclick="methodTest()">Probar Método</button>
+  <div id="results">
+
+  </div>
+</body>
+</html>
+
+
+<!-- 
+1 - una lista de metodos, donde seleccionamos uno a probar
+2 - dos campos donde ingresar datos, que van a ser operados por el metodo elegido
+3 - un boton que efectura la operación especificada.
+-->
